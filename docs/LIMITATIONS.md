@@ -1,0 +1,16 @@
+# Known limitations
+
+- **Demo identity:** selectable header identities are not authentication. Backend roles prevent invalid role actions within this simulation, but anyone with access can impersonate a seeded owner. No public-ready security claim.
+- **Scope:** one seeded business, one procurement item with two offers. Monitoring is user-triggered. Supplier onboarding, invoice/payment, receiving, inventory forecasts, notifications and live Orbyte APIs are not implemented.
+- **Order semantics:** every purchase is a draft. Drafts do not reserve/increase stock or track goods in transit. A later inventory check after a completed decision may create another decision; review existing drafts before approving another. This is not an autonomous purchasing system.
+- **Assumptions:** fixed daily usage, quote price and delivery lead time; no tax, delivery fees, spoilage, storage capacity, minimum-order conditions or service-level guarantee. An early estimated delivery is not guaranteed to prevent stockouts.
+- **Persistence:** local SQLite with create-on-start schema, no migration system or backup UI. Restart tests use the same database. Production/PostgreSQL adoption requires migrations, locking/concurrency review, backup/restore and tenant-security tests.
+- **Audit:** persistent and append-only through application routes, but not cryptographically tamper-evident; a local database administrator can modify it. The UI bootstrap shows the latest 100 audit records without pagination.
+- **Simulation:** no genuine MiroFish run, measured live latency or actual token/cost totals. Mocked HTTP fixtures are tests only. Social-agent narratives are exploratory, not validated business forecasts. Report section extraction expects English headings and leaves unmatched sections empty.
+- **Worker:** single local macOS/Linux worker using a file lock, not a distributed queue. Restarts mark interrupted jobs; graph/report tasks can outlive cancellation. Windows support for this optional worker is not implemented.
+- **Strategic scope:** only menu-price scenario configuration reuses simulation infrastructure. Product launch, expansion and other strategic modules are visibly planned, not operational.
+- **Testing:** automated backend/component/type/build checks passed. Local Playwright execution is blocked before browser startup by the macOS sandbox. Separate native-browser checks succeeded; Linux CI is supplied but has not run. Accessibility/mobile checks are limited, not a formal audit.
+- **Business validation:** no SME interview or timed usability study has been conducted. RM90 is a quote difference, not measured savings; productivity goals are proposed targets.
+- **Submission:** no remote GitHub repository/push, Replit execution proof, completed official PDFs, slides or pitch video. No deployed link. These remain required before submission; committee handles and sponsor-checkbox interpretation need organiser confirmation.
+
+For a future production system, add real identity/session security, tenant isolation review, input/data retention policies, least-privilege connectors and a documented privacy process before using real records. This prototype uses invented data and does not claim PDPA certification or legal compliance review.
