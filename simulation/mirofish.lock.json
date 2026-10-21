@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/666ghj/MiroFish",
+  "commit": "7657031ac01184afe2cb220f5ee3545573b5e843",
+  "license": "AGPL-3.0",
+  "integration": "separate local HTTP service",
+  "verification": "source inspection and mocked HTTP contract tests; no genuine live run",
+  "python": "3.11 or 3.12",
+  "zep_cloud": "3.25.0",
+  "camel_oasis": "0.2.5",
+  "camel_ai": "0.2.78"
+}
