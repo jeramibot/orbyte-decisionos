@@ -1,0 +1,34 @@
+{
+  "problem": {
+    "words": 191,
+    "limit": 250
+  },
+  "solution": {
+    "words": 182,
+    "limit": 300
+  },
+  "design": {
+    "words": 173,
+    "limit": 200
+  },
+  "architecture": {
+    "words": 152,
+    "limit": 200
+  },
+  "review": {
+    "words": 80,
+    "limit": 100
+  },
+  "replaceability": {
+    "words": 66,
+    "limit": 100
+  },
+  "privacy": {
+    "words": 126,
+    "limit": 150
+  },
+  "risks": {
+    "words": 110,
+    "limit": 150
+  }
+}

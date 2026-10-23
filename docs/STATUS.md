@@ -1,4 +1,4 @@
-# Implementation status — 22 October 2026 MYT
+# Implementation status — 23 October 2026 MYT
 
 | Milestone | Actual state |
 |---|---|
@@ -6,9 +6,9 @@
 | M1 — operational backend | Complete: SQLite seed, rules, snapshots, lifecycle, roles, idempotent/atomic approval, PO draft and audit |
 | M2 — connected frontend | Complete: eight requested routes, responsive interface, editable assumptions and clear errors |
 | M3 — approved action | Working and checked in native browser, including reload persistence and rejection. Automated Playwright test suite exists but its local runner is blocked before Chromium startup |
-| M4 — MiroFish | Adapter, persistent worker, error handling and report viewer implemented; mocked contracts pass. **Live service setup/run and usage measurement incomplete**, requiring approved credentials/budget |
+| M4 — MiroFish | Adapter, persistent worker, error handling and report viewer implemented; mocked contracts pass. Pinned upstream backend and 133 dependencies installed separately; entrypoint preflight correctly stops at missing LLM/Zep keys. **Live execution and usage measurement incomplete**, requiring approved credentials/budget |
 | M5 — strategic prototype | Menu-price scenario configuration implemented; no generated outcome without genuine upstream execution |
-| M6 — readiness | Local launcher, setup, demo script, architecture, tests, screenshots and limitations documented. **Actual competition submission remains incomplete** |
+| M6 — readiness | Local launcher, Replit import configuration, setup, demo script, architecture, tests, screenshots, draft official PDFs and a nine-slide editable deck prepared. **Actual competition submission remains incomplete** |
 
 ## Milestone evidence
 
@@ -22,6 +22,12 @@ See [detailed test results](TESTING.md) for commands and boundaries. No remote r
 ## Next work
 
 1. Run the committed Playwright suite in a browser-capable environment/authorised CI; resolve any actual test failures.
-2. Complete registered-team review and genuine Replit usage/evidence, then assemble official PDFs, slides and 5–7 minute video.
+2. Complete registered-team review and genuine Replit usage/evidence, then finalise the prepared PDFs and deck. The user is handling the 5–7 minute video.
 3. After approved provider setup/budget, validate the pinned MiroFish integration with one real small run and actual runtime/usage evidence.
 4. Authorise remote repository/public submission separately and verify organiser handles, links and deadline freeze.
+
+## Submission preparation — 23 October
+
+Both official template PDFs have technical answers and appendices, with draft stamps and unconfirmed team fields/signatures. All 34 pages were rendered and visually reviewed; narrative word limits and overlay bounds passed. The nine-slide PowerPoint passed package/layout/font/native-table checks and artifact-runtime re-import; each slide was visually checked. This does not establish native PowerPoint rendering.
+
+Replit setup and provider-configuration scripts pass syntax checks but have not run in Replit or with provider credentials. The Replit login requires user access; a GitHub browser setup attempt timed out. No remote push, repository-access change or submission occurred.

@@ -1,0 +1,11 @@
+entrypoint = "README.md"
+run = [".venv/bin/python", "scripts/replit_run.py"]
+modules = ["nodejs-24", "python-3.12"]
+
+[env]
+MIROFISH_ALLOW_EXTERNAL = "false"
+NEXT_TELEMETRY_DISABLED = "1"
+
+[[ports]]
+localPort = 3000
+externalPort = 80

@@ -98,7 +98,7 @@ data/synthetic/   Seed-data documentation
 simulation/       Upstream pin, scenario/fixture/report documentation
 docs/             Architecture, API, testing, demo, limitations and workstreams
 scripts/          Local launcher, isolated test server, reset and OpenAPI export
-submission/       Outstanding event deliverables (no fabricated proof files)
+submission/       Draft official PDFs, editable pitch deck and readiness checklist
 .github/          CI checks for a future authorised remote repository
 ```
 
@@ -123,6 +123,7 @@ Actual local results: **33 backend tests and 3 component tests passed; typecheck
 - [Five-minute demonstration](docs/DEMO.md) and [business validation plan](docs/BENEFITS.md)
 - [Known limitations](docs/LIMITATIONS.md) and [AI assistance disclosure](docs/AI-DISCLOSURE.md)
 - [Six workstreams within the five-member event limit](docs/WORKSTREAMS.md)
-- [Submission readiness](submission/README.md): team, repository, Replit, prototype, slides, video and completed PDFs pending
+- [Submission readiness](submission/README.md): draft official PDFs and editable pitch deck are prepared; team details, platform proof and final links remain pending
+- [Replit import](docs/REPLIT.md), [MiroFish setup record](docs/MIROFISH-SETUP-RECORD.md) and [team validation protocol](docs/TEAM-VALIDATION.md)
 
 Original application code is under [Apache License 2.0](LICENSE). The separate MiroFish project is AGPL-3.0; its source is not bundled. See [licensing boundaries and notices](LICENSES.md).

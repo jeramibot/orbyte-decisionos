@@ -63,3 +63,7 @@ Cancellation and timeout request a best-effort simulation stop once a simulation
 ## Licensing
 
 MiroFish is AGPL-3.0. Its licence is preserved at `docs/licenses/MiroFish-AGPL-3.0.txt`; links and scope are in `LICENSES.md`. HTTP/process separation is an architectural boundary, not a legal guarantee that all obligations disappear. Review source/distribution/network-use obligations before any external deployment. Original DecisionOS code remains separately licensed under Apache-2.0.
+
+## Local installation update
+
+The pinned upstream backend is now installed in a separate environment. Its entrypoint preflight stopped at the missing LLM and Zep credentials without making a provider call. See [setup record](MIROFISH-SETUP-RECORD.md). This is not a successful live integration test.

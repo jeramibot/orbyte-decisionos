@@ -1,0 +1,2 @@
+# DecisionOS project context
+Synthetic café procurement with Next.js UI and FastAPI/SQLite backend. Run `bash scripts/replit_setup.sh` once, then Run. API is private on localhost:8000; UI listens on port 3000 for the workspace preview. Keep MiroFish disabled. No paid calls, real orders, or credentials in source. Do not rewrite the working stack or replace SQLite automatically. Preserve approval transactions, idempotency, audit history and stale-data checks. Roles are simulated, not production authentication. Public deployment is a separate approval step. See docs/REPLIT.md.
