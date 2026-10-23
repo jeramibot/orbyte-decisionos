@@ -1,15 +1,29 @@
-# Replit import and proof of use
+# Replit verification - 23 October 2026
 
-Configuration is prepared but **not yet verified in an authenticated Replit project**. The browser currently requires sign-in. There is no proof-of-use claim or fabricated screenshot PDF.
+Workspace: [https://replit.com/@jeremyjunxuanta/orbyte-decisionos](https://replit.com/@jeremyjunxuanta/orbyte-decisionos). Imported from the source ZIP based on local commit `ef2db83`. This is a verified development preview, not a published production deployment.
 
-1. Sign into the team's Replit account. Import the authorised GitHub repository or upload the prepared source ZIP. Keep project access private while developing.
-2. Confirm Python 3.12 and Node.js 24 modules are available in the actual workspace. The `.replit` module names are prepared configuration and may need adjustment to the workspace's available versions.
-3. In Shell run `bash scripts/replit_setup.sh`. It installs pinned app dependencies and builds the UI. It does not invoke AI providers.
-4. Press Run. The launcher exposes only the UI port 3000 to Replit's preview proxy; FastAPI stays on loopback port 8000. The hosted demo forces paid simulation execution off.
-5. Verify the complete shortage-to-approval workflow and a reload. Capture real project URL/history and a screenshot showing the app running in the team's Replit workspace. Record date, commit and what was tested.
-6. Run backend/component checks in Shell. If Chromium is supported, run `cd frontend && ../.tools/node_modules/.bin/pnpm exec playwright install --with-deps chromium && ../.tools/node_modules/.bin/pnpm test:e2e`; system dependency installation may require the appropriate Replit environment.
-7. Assemble genuine proof PDF after actual use. Do not confuse local screenshots with Replit evidence.
+## Actual results
 
-This configuration has no deployment block and does not automatically publish. Public access/deployment is a separate authorised step. The prototype has selectable demo roles and should contain only invented records. SQLite in a development workspace is not a claim of persistent storage across production deployments; use the workspace/history proof route or validate durable storage before offering a hosted persistent demo.
+- Python 3.12.12, Node 24.22.1 and installed Chromium 152.0.7977.64.
+- Production build passed; 33 backend tests, three component tests and TypeScript checks passed.
+- Four Playwright tests passed in 1.0 minute: approval/persistence, rejection, unavailable simulation and mobile navigation.
+- Native browser created decision `e4dc959a-2ce6-4ea4-adcc-e6307028f737`, approved Supplier B for RM660, and retained PO `B65F9B8C` and audit events after reload.
+- Screenshots: `docs/screenshots/replit-workspace.jpg`, `replit-approved-workflow.jpg`, `replit-test-results.jpg`. Proof PDF: `submission/drafts/DecisionOS_Replit_POU_DRAFT.pdf`. Team name and final submission filename remain pending.
 
-Sources: Replit configuration documentation, https://docs.replit.com/features/project-setup/configuration ; port mapping explanation, https://replit.com/blog/ports . Reviewed 22 October 2026.
+## Reproduce
+
+1. Import the source into a Replit Python 3.12 / Node 24 workspace. ZIP import does not preserve Git history; the local Git bundle does.
+2. Run `bash scripts/replit_setup.sh`. The script uses `pip install --no-user` because Replit's pip user-install default conflicts with a virtual environment.
+3. Press Run. The UI uses port 3000 and the API stays on loopback port 8000. Paid simulation execution is forced off.
+4. Run `.venv/bin/python -m pytest backend/tests -q`, then `pnpm --dir frontend typecheck` and `pnpm --dir frontend test` using the installed `.tools/node_modules/.bin/pnpm`.
+5. Replit's bundled Playwright Chromium lacked `libglib-2.0.so.0`. Use its installed browser explicitly:
+
+```bash
+PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/repl/tools/bin/chromium .tools/node_modules/.bin/pnpm --dir frontend test:e2e
+```
+
+The test harness forces an isolated SQLite configuration before ASGI imports, avoiding Replit's injected PostgreSQL URL. Tests use separate ports 8001/3001 and a temporary database. Default CI continues to use Playwright's own Chromium unless the executable override is explicitly set.
+
+Logs were retained in the Replit workspace as `docs/replit-unit-results.txt` and `docs/replit-e2e-results.txt`. Replit Agent automatically began inspecting the import; it was stopped after 16 seconds / five actions. Setup and verification were then performed manually through the shell and UI with Codex.
+
+The development preview may sleep and is not a durable production link. Selectable roles are simulated, so only invented data belongs here. Public production publishing and GitHub access changes have not been performed. Sponsor-credit use is unconfirmed.

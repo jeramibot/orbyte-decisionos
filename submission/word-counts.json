@@ -4,23 +4,23 @@
     "limit": 250
   },
   "solution": {
-    "words": 182,
+    "words": 186,
     "limit": 300
   },
   "design": {
-    "words": 173,
+    "words": 174,
     "limit": 200
   },
   "architecture": {
-    "words": 152,
+    "words": 153,
     "limit": 200
   },
   "review": {
-    "words": 80,
+    "words": 93,
     "limit": 100
   },
   "replaceability": {
-    "words": 66,
+    "words": 61,
     "limit": 100
   },
   "privacy": {
@@ -28,7 +28,7 @@
     "limit": 150
   },
   "risks": {
-    "words": 110,
+    "words": 112,
     "limit": 150
   }
 }

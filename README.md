@@ -4,7 +4,7 @@
 
 A working synthetic café procurement prototype for **SDC 2026, Domain 2 — Orbyte Smart SME Challenge**. It connects inventory and quotations, explains the trade-offs, requires owner approval, and saves a purchase-order draft with an audit trail. SDG focus: **8.2 and 8.3**.
 
-**Status:** operational workflow implemented and checked locally. MiroFish adapter and scenario screens implemented; no genuine MiroFish run yet. This is a development repository, **not a completed hackathon submission**. Team details, Replit evidence and submission links are still pending. See [status](docs/STATUS.md), [test results](docs/TESTING.md) and [submission checklist](submission/README.md).
+**Status:** operational workflow implemented and checked locally. MiroFish adapter and scenario screens implemented; no genuine MiroFish run yet. This is a development repository, **not a completed hackathon submission**. Replit development use and proof are verified; team details and final submission links are still pending. See [status](docs/STATUS.md), [test results](docs/TESTING.md) and [submission checklist](submission/README.md).
 
 ## Try the working journey
 
@@ -114,7 +114,7 @@ pnpm exec playwright install chromium
 pnpm test:e2e
 ```
 
-Actual local results: **33 backend tests and 3 component tests passed; typecheck and production build passed**. The four Playwright tests were attempted but Chromium could not launch under this macOS execution sandbox. The core workflow was separately exercised in the Codex in-app browser, including approval, reload persistence, unavailable simulation handling and mobile layout. See [testing evidence and its limits](docs/TESTING.md). A Linux CI workflow is included but has not run on GitHub.
+Actual local results: **33 backend tests, 3 component tests and 4 Playwright tests passed in Replit; typecheck and production build passed**. Playwright used Replit Chromium 152; the original macOS runner remains restricted. The core workflow was separately exercised in the Codex in-app browser, including approval, reload persistence, unavailable simulation handling and mobile layout. See [testing evidence and its limits](docs/TESTING.md). A Linux CI workflow is included but has not run on GitHub.
 
 ## Project documentation
 
@@ -123,7 +123,9 @@ Actual local results: **33 backend tests and 3 component tests passed; typecheck
 - [Five-minute demonstration](docs/DEMO.md) and [business validation plan](docs/BENEFITS.md)
 - [Known limitations](docs/LIMITATIONS.md) and [AI assistance disclosure](docs/AI-DISCLOSURE.md)
 - [Six workstreams within the five-member event limit](docs/WORKSTREAMS.md)
-- [Submission readiness](submission/README.md): draft official PDFs and editable pitch deck are prepared; team details, platform proof and final links remain pending
+- [Submission readiness](submission/README.md): draft official PDFs and editable pitch deck are prepared; Replit proof is prepared; team details and final links remain pending
 - [Replit import](docs/REPLIT.md), [MiroFish setup record](docs/MIROFISH-SETUP-RECORD.md) and [team validation protocol](docs/TEAM-VALIDATION.md)
 
 Original application code is under [Apache License 2.0](LICENSE). The separate MiroFish project is AGPL-3.0; its source is not bundled. See [licensing boundaries and notices](LICENSES.md).
+
+Verified Replit development workspace: [https://replit.com/@jeremyjunxuanta/orbyte-decisionos](https://replit.com/@jeremyjunxuanta/orbyte-decisionos). See [platform evidence](docs/REPLIT.md); this is not a production deployment.
