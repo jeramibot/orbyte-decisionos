@@ -1,6 +1,6 @@
 # Replit verification - 23 October 2026
 
-Workspace: [https://replit.com/@jeremyjunxuanta/orbyte-decisionos](https://replit.com/@jeremyjunxuanta/orbyte-decisionos). Imported from the source ZIP based on local commit `ef2db83`. This is a verified development preview, not a published production deployment.
+Workspace: [https://replit.com/@jeremyjunxuanta/orbyte-decisionos](https://replit.com/@jeremyjunxuanta/orbyte-decisionos). Imported from the source ZIP based on local commit `ef2db83`. Public synthetic demo: [https://orbyte-decisionos--jeremyjunxuanta.replit.app/](https://orbyte-decisionos--jeremyjunxuanta.replit.app/), published on the free Starter plan on 24 October 2026.
 
 ## Actual results
 
@@ -26,4 +26,4 @@ The test harness forces an isolated SQLite configuration before ASGI imports, av
 
 Logs were retained in the Replit workspace as `docs/replit-unit-results.txt` and `docs/replit-e2e-results.txt`. Replit Agent automatically began inspecting the import; it was stopped after 16 seconds / five actions. Setup and verification were then performed manually through the shell and UI with Codex.
 
-The development preview may sleep and is not a durable production link. On 24 October 2026, unauthenticated HTTP checks returned 404 for both the Replit workspace URL and the prior `sisko.replit.dev` preview URL. The signed-in screenshots remain genuine proof of use, but these URLs cannot currently serve as judge-accessible prototype links. Selectable roles are simulated, so only invented data belongs here. Public production publishing and GitHub access changes have not been performed. The user reports the organiser Core voucher expired and elects to continue on the free plan; Core redemption remains unresolved with organisers.
+The development preview may sleep and is not the public link. After explicitly pinning safe `anyio`, `certifi`, `idna` and `Pygments` versions in `backend/requirements.txt`, Replit's fresh security scan reported **0 active issues** and its publish security checks passed. An unauthenticated HTTP request to the published URL returned 200. The public browser loaded the dashboard, created synthetic decision `d0081965-6656-4a55-8f2e-fef3460ebe9e`, approved Supplier B as the simulated owner, produced draft `PO-63D4B847`, and retained approval and draft after reload. No supplier message, payment or stock receipt occurred. The service uses shared synthetic data; anyone with the URL can choose a simulated role and change it. The free-plan deployment warns it will expire after 29 days unless upgraded; no upgrade or payment was made. The organiser Core voucher remains expired and eligibility needs organiser clarification.

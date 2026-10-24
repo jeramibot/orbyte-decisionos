@@ -4,11 +4,11 @@
 
 A working synthetic café procurement prototype by registered team **Us!** for **SDC 2026, Domain 2 — Orbyte Smart SME Challenge**. It connects inventory and quotations, explains the trade-offs, requires owner approval, and saves a purchase-order draft with an audit trail. SDG focus: **8.2 and 8.3**.
 
-**Status:** operational workflow implemented and checked locally. MiroFish adapter and scenario screens implemented; no genuine MiroFish run yet. This is a development repository, **not a completed hackathon submission**. Replit development use and proof are verified, but the current Replit links return 404 to logged-out visitors. The two-person registered roster is confirmed; judge access, leader-signed forms and final submission links remain pending. See [status](docs/STATUS.md), [test results](docs/TESTING.md) and [submission checklist](submission/README.md).
+**Status:** the [public Replit synthetic demo](https://orbyte-decisionos--jeremyjunxuanta.replit.app/) is live and its approval-to-draft journey was verified after reload on 24 October 2026. MiroFish adapter and scenario screens are implemented, but no genuine MiroFish run has occurred. This is **not a completed hackathon submission**: leader-signed forms, the video, organiser GitHub access and portal submission remain pending. See [status](docs/STATUS.md), [test results](docs/TESTING.md) and [submission checklist](submission/README.md).
 
 ## Try the working journey
 
-1. Open the local app and choose **Purchasing manager**.
+1. Open the [public synthetic demo](https://orbyte-decisionos--jeremyjunxuanta.replit.app/) or local app and choose **Purchasing manager**.
 2. Select **Run inventory check**. Fresh milk has 18 litres at 12 litres/day: **1.5 days** of coverage against a 3-day threshold.
 3. Compare Supplier A: **RM570**, estimated delivery in 4 days, with Supplier B: **RM660**, estimated delivery in 1 day. The premium is **RM90**. A's arrival exceeds stock coverage by 2.5 days.
 4. Switch to **Business owner**, select Supplier B, enter a reason, and approve.
@@ -61,7 +61,7 @@ To deliberately reset the default synthetic database, stop both servers, back up
 | `MIROFISH_ALLOW_EXTERNAL` | `false`; keep disabled until provider use and cost are approved |
 | `MIROFISH_JOB_TIMEOUT` | 600 seconds; not a guaranteed upstream cost cap |
 
-All data is invented. Role selection uses the explicitly simulated `X-Demo-User` header; it is **not authentication**. Backend permissions are enforced, but anyone with access can select an owner identity. Keep this version on loopback. Public deployment needs a real authentication/access-control plan. Credentials belong in ignored `.env` files; upstream LLM/Zep keys belong only in the separate MiroFish service.
+All data is invented. Role selection uses the explicitly simulated `X-Demo-User` header; it is **not authentication**. Backend permissions are enforced, but anyone with the public demo URL can select an owner identity and change shared synthetic data. Never put real business records in this deployment. Real-world use requires authentication and access control. Credentials belong in ignored `.env` files; upstream LLM/Zep keys belong only in the separate MiroFish service.
 
 ## Architecture
 
@@ -114,7 +114,7 @@ pnpm exec playwright install chromium
 pnpm test:e2e
 ```
 
-Actual local results: **33 backend tests, 3 component tests and 4 Playwright tests passed in Replit; typecheck and production build passed**. Playwright used Replit Chromium 152; the original macOS runner remains restricted. The core workflow was separately exercised in the Codex in-app browser, including approval, reload persistence, unavailable simulation handling and mobile layout. [GitHub CI passed](https://github.com/jeramibot/orbyte-decisionos/actions/runs/40096713320) on the first private push, including backend, frontend and browser suites. See [testing evidence and its limits](docs/TESTING.md).
+Actual local results: **33 backend tests, 3 component tests and 4 Playwright tests passed in Replit; typecheck and production build passed**. Playwright used Replit Chromium 152; the original macOS runner remains restricted. The core workflow was separately exercised in the Codex in-app browser, including approval, reload persistence, unavailable simulation handling and mobile layout. [GitHub CI passed](https://github.com/jeramibot/orbyte-decisionos/actions/runs/40103029122) on a private commit, including backend, frontend and browser suites. See [testing evidence and its limits](docs/TESTING.md).
 
 ## Project documentation
 
@@ -125,10 +125,10 @@ Actual local results: **33 backend tests, 3 component tests and 4 Playwright tes
 - [Six workstreams within the five-member event limit](docs/WORKSTREAMS.md)
 - [Submission readiness](submission/README.md): draft official PDFs and editable pitch deck are prepared; Replit proof is prepared; signed forms and final links remain pending
 - [Genuine Replit proof of use](submission/SDC2026_Us!_Replit_POU.pdf) for team review and the eventual public submission
-- [Team-named pitch deck](submission/DecisionOS_Pitch_Us.pptx) for the 5–7 minute recorded pitch
+- [Updated team-named pitch deck](submission/DecisionOS_Pitch_Us_v2.pptx) for the 5–7 minute recorded pitch
 - [Replit import](docs/REPLIT.md), [MiroFish setup record](docs/MIROFISH-SETUP-RECORD.md) and [team validation protocol](docs/TEAM-VALIDATION.md)
-- [Judge-access handoff](docs/JUDGE-ACCESS.md) for the current anonymous-link failure and deployment checks
+- [Judge-access handoff](docs/JUDGE-ACCESS.md) for the verified live link and remaining organiser-access steps
 
 Original application code is under [Apache License 2.0](LICENSE). The separate MiroFish project is AGPL-3.0; its source is not bundled. See [licensing boundaries and notices](LICENSES.md).
 
-Verified Replit development workspace: [https://replit.com/@jeremyjunxuanta/orbyte-decisionos](https://replit.com/@jeremyjunxuanta/orbyte-decisionos). See [platform evidence](docs/REPLIT.md); this is not a production deployment.
+Public synthetic demo: [https://orbyte-decisionos--jeremyjunxuanta.replit.app/](https://orbyte-decisionos--jeremyjunxuanta.replit.app/). See [platform evidence](docs/REPLIT.md). The editable Replit workspace is [here](https://replit.com/@jeremyjunxuanta/orbyte-decisionos).

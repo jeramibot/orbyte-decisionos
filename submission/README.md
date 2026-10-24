@@ -5,14 +5,14 @@ This folder contains two **draft** official-template PDFs, a team-named genuine 
 ## Outstanding inputs and deliverables
 
 - Registered team name confirmed as **Us!**. The user confirmed Pau Kwee li as leader and Jeremy Tan Jun Xuan as the only other registered member. Leader contact details are in private review copies of the forms, outside this repository.
-- The user confirmed `jeramibot` as owner. Genuine local incremental history and code are pushed to the private [GitHub repository](https://github.com/jeramibot/orbyte-decisionos), and the [first CI run passed](https://github.com/jeramibot/orbyte-decisionos/actions/runs/40096713320). Required committee collaborator handles and public access remain pending before submission.
+- The user confirmed `jeramibot` as owner. Genuine local incremental history and code are pushed to the private [GitHub repository](https://github.com/jeramibot/orbyte-decisionos), and the [latest code CI run passed](https://github.com/jeramibot/orbyte-decisionos/actions/runs/40103029122). Required committee collaborator handles and public access remain pending before submission.
 - Replit development use is verified and the team-named [proof-of-use PDF](SDC2026_Us!_Replit_POU.pdf) is ready for team review. The reviewed handbook makes RunPod conditional on a GPU workload; this local deterministic demo has none. Declare actual use truthfully.
 - A later organiser flyer supplied by the user says teams that have not redeemed Replit Core should redeem through the team portal and use Replit to remain eligible for judging and deposit refund. The user reports that this team's voucher has expired and elects to continue on the free Replit plan for now. Verified Replit development use does not prove Core redemption or resolve the flyer’s eligibility warning. Ask the organisers through the official Discord or team portal for voucher reactivation or written clarification, and retain their response. The flyer also warns to turn off auto-reload and cancel renewal to avoid card charges; inspect the actual billing state before making changes.
 - Finalise prepared `drafts/DecisionOS_Preliminary_DRAFT.pdf` as: `SDC2026_<TeamName>_Preliminary.pdf`.
 - Finalise prepared `drafts/DecisionOS_TechDeclaration_DRAFT.pdf` as: `SDC2026_<TeamName>_TechDeclaration.pdf`, including extensive Codex assistance, libraries, simulated connector, optional unverified MiroFish and all actual provider/cloud use.
 - Verify the genuine `SDC2026_Us!_Replit_POU.pdf` proof in the final public repository; include RunPod evidence only if actually applicable. Do not reuse sample proof files as team evidence.
-- Prepared [pitch deck](DecisionOS_Pitch_Us.pptx): nine editable slides with speaker notes and the confirmed team name. Leader/member details and a live MiroFish run remain unconfirmed. The user will create the public 5–7 minute YouTube pitch/demo.
-- Accessible prototype/build instructions and tested links. Anonymous checks on 24 October returned 404 for the current Replit workspace link and old development-preview URL, so neither is a verified judge-accessible build. Public deployment needs approval and an appropriate access-control plan for simulated roles; see [judge-access handoff](../docs/JUDGE-ACCESS.md).
+- Updated [pitch deck](DecisionOS_Pitch_Us_v2.pptx): nine editable slides with speaker notes, the confirmed team name and verified public-demo status. Leader/member details and a live MiroFish run remain unconfirmed. The user will create the public 5–7 minute YouTube pitch/demo.
+- The [public Replit synthetic prototype](https://orbyte-decisionos--jeremyjunxuanta.replit.app/) is live and its inventory-check → owner approval → purchase-order draft journey persisted after reload. Replit's fresh scan found 0 active dependency issues and its publish checks passed. This is shared synthetic data with simulated roles, not real authentication; see [judge-access handoff](../docs/JUDGE-ACCESS.md).
 - Complete README team, repository, Replit, prototype, deck, video and completed-PDF links with real values.
 - All mandatory GenAI, Database and Cloud Deployment workshops were confirmed complete by the user. Verify organiser sponsor-checkbox interpretation and designated committee GitHub accounts. Do not invent them.
 - Verify all links/files while logged out, submit through the current official portal process and retain genuine confirmation.
@@ -23,7 +23,7 @@ The technical MVP supports the Domain 2 trigger → data → decision → owner 
 
 - `content.json`: editable narrative answers; `word-counts.json`: word-limit checks.
 - `drafts/`: original organiser template layouts retained, plus architecture and dependency appendices. Do not sign before team review.
-- `DecisionOS_Pitch_Us.pptx`: editable text, comparison table and actual local app screenshots.
+- `DecisionOS_Pitch_Us_v2.pptx`: editable text, comparison table and actual local app screenshots.
 - `usability-results.csv`: empty results sheet for the real protocol in `docs/TEAM-VALIDATION.md`.
 - `../docs/REPLIT.md`: import, run and genuine proof-of-use steps.
 - `../docs/GITHUB-HANDOFF.md`: preserve local history and complete remote checks.

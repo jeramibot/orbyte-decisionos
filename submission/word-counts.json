@@ -4,7 +4,7 @@
     "limit": 250
   },
   "solution": {
-    "words": 198,
+    "words": 199,
     "limit": 300
   },
   "design": {
@@ -12,7 +12,7 @@
     "limit": 200
   },
   "architecture": {
-    "words": 164,
+    "words": 172,
     "limit": 200
   },
   "review": {
@@ -20,15 +20,15 @@
     "limit": 100
   },
   "replaceability": {
-    "words": 72,
+    "words": 82,
     "limit": 100
   },
   "privacy": {
-    "words": 135,
+    "words": 147,
     "limit": 150
   },
   "risks": {
-    "words": 120,
+    "words": 130,
     "limit": 150
   }
 }
