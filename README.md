@@ -124,6 +124,8 @@ Actual local results: **33 backend tests, 3 component tests and 4 Playwright tes
 - [Known limitations](docs/LIMITATIONS.md) and [AI assistance disclosure](docs/AI-DISCLOSURE.md)
 - [Six workstreams within the five-member event limit](docs/WORKSTREAMS.md)
 - [Submission readiness](submission/README.md): draft official PDFs and editable pitch deck are prepared; Replit proof is prepared; team details and final links remain pending
+- [Genuine Replit proof of use](submission/SDC2026_Us!_Replit_POU.pdf) for team review and the eventual public submission
+- [Team-named pitch deck](submission/DecisionOS_Pitch_Us.pptx) for the 5–7 minute recorded pitch
 - [Replit import](docs/REPLIT.md), [MiroFish setup record](docs/MIROFISH-SETUP-RECORD.md) and [team validation protocol](docs/TEAM-VALIDATION.md)
 
 Original application code is under [Apache License 2.0](LICENSE). The separate MiroFish project is AGPL-3.0; its source is not bundled. See [licensing boundaries and notices](LICENSES.md).
