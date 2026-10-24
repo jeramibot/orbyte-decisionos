@@ -21,7 +21,7 @@ See [detailed test results](TESTING.md) for commands and boundaries. The code an
 
 ## Next work
 
-1. Ask the organisers to reactivate the expired Replit Core voucher or clarify in writing whether verified free-plan Replit use is eligible. Obtain the designated committee GitHub usernames and invite them after verifying their identities.
+1. Ask the organisers to reactivate the expired Replit Core voucher or clarify in writing whether verified free-plan Replit use is eligible. Obtain the designated committee GitHub usernames and invite them after verifying their identities. The authenticated team portal also requires a sponsor-integration declaration; obtain a truthful interpretation for the disclosed simulated Orbyte connector before checking it.
 2. Have the registered team review the private PDFs and deck, add the verified public link, and have Pau personally sign and date the declarations. The user is handling the 5–7 minute video. Submit the final materials through the official portal and retain confirmation.
 3. Optional after the required preliminary submission is ready: replace the masked Zep dashboard value with a valid full key, then validate one small synthetic MiroFish run within the chosen provider limits. No live result is currently claimed.
 

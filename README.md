@@ -10,7 +10,7 @@ A working synthetic café procurement prototype by registered team **Us!** for *
 
 | Item | Link / status |
 |---|---|
-| Registered team | **Us!** — Pau Kwee li (leader), Jeremy Tan Jun Xuan |
+| Registered team | **Us!** — Pau Kwee Li (leader), Jeremy Tan Jun Xuan |
 | Public working prototype | [Open DecisionOS on Replit](https://orbyte-decisionos--jeremyjunxuanta.replit.app/) |
 | Replit development project | [Team Replit workspace](https://replit.com/@jeremyjunxuanta/orbyte-decisionos) |
 | Pitch slides | [Editable nine-slide deck](submission/DecisionOS_Pitch_Us_v2.pptx) |
