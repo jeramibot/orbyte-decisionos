@@ -4,7 +4,7 @@
 
 A working synthetic café procurement prototype by registered team **Us!** for **SDC 2026, Domain 2 — Orbyte Smart SME Challenge**. It connects inventory and quotations, explains the trade-offs, requires owner approval, and saves a purchase-order draft with an audit trail. SDG focus: **8.2 and 8.3**.
 
-**Status:** the [public Replit synthetic demo](https://orbyte-decisionos--jeremyjunxuanta.replit.app/) is live and its approval-to-draft journey was verified after reload on 24 October 2026. This [GitHub repository](https://github.com/jeramibot/orbyte-decisionos) is public and was checked without signing in. MiroFish adapter and scenario screens are implemented, but no genuine MiroFish run has occurred. This is **not a completed hackathon submission**: leader-signed forms, the video, designated committee GitHub collaborator access and portal submission remain pending. See [status](docs/STATUS.md), [test results](docs/TESTING.md) and [submission checklist](submission/README.md).
+**Status:** the [public Replit synthetic demo](https://orbyte-decisionos--jeremyjunxuanta.replit.app/) is live and its approval-to-draft journey was verified after reload on 24 October 2026. This [GitHub repository](https://github.com/jeramibot/orbyte-decisionos) is public and was checked without signing in. The [public pitch and demo video](https://youtu.be/VDg41Xp2V9Y) is uploaded. MiroFish adapter and scenario screens are implemented, but no genuine MiroFish run has occurred. This is **not a completed hackathon submission**: leader-signed forms, designated committee GitHub collaborator access and portal submission remain pending. See [status](docs/STATUS.md), [test results](docs/TESTING.md) and [submission checklist](submission/README.md).
 
 ## Reviewer links
 
@@ -15,7 +15,7 @@ A working synthetic café procurement prototype by registered team **Us!** for *
 | Replit development project | [Team Replit workspace](https://replit.com/@jeremyjunxuanta/orbyte-decisionos) |
 | Pitch slides | [Editable nine-slide deck](submission/DecisionOS_Pitch_Us_v2.pptx) |
 | Replit proof of use | [Team-named evidence PDF](submission/SDC2026_Us!_Replit_POU.pdf) |
-| 5–7-minute public video | **Pending user recording and upload**; add the verified YouTube link before submission. |
+| Public pitch and demo video | [Watch on YouTube](https://youtu.be/VDg41Xp2V9Y) |
 | Official preliminary and technical declarations | **Pending leader review and signatures**; public [drafts](submission/drafts/) are not final forms. |
 
 The live demo uses invented data and simulated roles. The repository includes neither private leader contact details nor API keys. Obtain the organiser-designated GitHub collaborator handles and invite them before final submission.
@@ -139,7 +139,7 @@ Actual local results: **33 backend tests, 3 component tests and 4 Playwright tes
 - [Six workstreams within the five-member event limit](docs/WORKSTREAMS.md)
 - [Submission readiness](submission/README.md): draft official PDFs and editable pitch deck are prepared; Replit proof is prepared; signed forms and final links remain pending
 - [Genuine Replit proof of use](submission/SDC2026_Us!_Replit_POU.pdf) for team review and the eventual public submission
-- [Updated team-named pitch deck](submission/DecisionOS_Pitch_Us_v2.pptx) for the 5–7 minute recorded pitch
+- [Pitch deck with demo walkthrough](submission/DecisionOS_Pitch_Us_with_Demo.pptx) used for the public recorded pitch
 - [Replit import](docs/REPLIT.md), [MiroFish setup record](docs/MIROFISH-SETUP-RECORD.md) and [team validation protocol](docs/TEAM-VALIDATION.md)
 - [Judge-access handoff](docs/JUDGE-ACCESS.md) for the verified live link and remaining organiser-access steps
 
