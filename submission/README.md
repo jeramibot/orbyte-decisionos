@@ -1,10 +1,10 @@
 # Submission readiness — incomplete
 
-This folder contains two **draft** official-template PDFs, a team-named genuine Replit proof-of-use PDF and an editable pitch deck. Technical answers are prepared; private leader contact details are kept outside this repository. Registered roster confirmation, team review, signatures and remaining declarations are not fabricated. The draft official forms are not ready to submit. The reviewed preliminary deadline is **25 October 2026, 07:59:59 MYT**. Freeze repository changes at the deadline unless organisers authorise more work. Check official announcements for changes.
+This folder contains two **draft** official-template PDFs, a team-named genuine Replit proof-of-use PDF and an editable pitch deck. Technical answers are prepared; private leader contact details are kept outside this repository. Team review, signatures and remaining declarations are not fabricated. The draft official forms are not ready to submit. The reviewed preliminary deadline is **25 October 2026, 07:59:59 MYT**. Freeze repository changes at the deadline unless organisers authorise more work. Check official announcements for changes.
 
 ## Outstanding inputs and deliverables
 
-- Registered team name confirmed as **Us!**. Leader contact and two names were supplied for private form review; the complete registered roster remains to be confirmed (maximum five members; combine the six engineering workstreams).
+- Registered team name confirmed as **Us!**. The user confirmed Pau Kwee li as leader and Jeremy Tan Jun Xuan as the only other registered member. Leader contact details are in private review copies of the forms, outside this repository.
 - The user confirmed `jeramibot` as owner and an empty private [GitHub repository](https://github.com/jeramibot/orbyte-decisionos) now exists. Genuine local incremental history is ready, but no code has been pushed. Required committee collaborator handles and public access remain pending before submission.
 - Replit development use is verified and the team-named [proof-of-use PDF](SDC2026_Us!_Replit_POU.pdf) is ready for team review. The reviewed handbook makes RunPod conditional on a GPU workload; this local deterministic demo has none. Declare actual use truthfully.
 - Finalise prepared `drafts/DecisionOS_Preliminary_DRAFT.pdf` as: `SDC2026_<TeamName>_Preliminary.pdf`.
