@@ -10,7 +10,7 @@ Executed locally on macOS during 21–22 October 2026 MYT, using Python 3.12.14 
 | Production bundle | `cd frontend && NEXT_TELEMETRY_DISABLED=1 pnpm build` | Passed |
 | Automated browser suite | `cd frontend && pnpm test:e2e` | Attempted; **4 tests blocked at Chromium launch**, no E2E pass claimed |
 | Native browser interaction | Codex in-app browser against running production UI/API | Checks below completed |
-| GitHub CI | `.github/workflows/ci.yml` | Authored only; not run or pushed |
+| GitHub CI | [Run 40096713320](https://github.com/jeramibot/orbyte-decisionos/actions/runs/40096713320) | **Passed** on Ubuntu: backend, frontend type/component/build and four Playwright tests |
 
 The initial frontend commands used the bundled Node executable directly; subsequent pnpm commands passed after configuring workspace build permissions. An initial Turbopack file-watcher error was addressed by using Webpack/polling for local E2E servers. The final production rebuild also hit a sandbox port-binding restriction in Turbopack; the build script now uses `next build --webpack`, which completed successfully. Chromium then exited before opening a test page because macOS denied its Mach-port bootstrap registration (`bootstrap_check_in ... MachPortRendezvousServer`). This remains the macOS runner blocker; the Replit run below succeeds. No browser test assertion results can be inferred from that failure.
 
@@ -44,6 +44,6 @@ For future live MiroFish validation, follow `MIROFISH.md` and retain genuine ups
 
 ## Replit verification - 23 October 2026
 
-Python 3.12.12 / Node 24.22.1 / Chromium 152.0.7977.64: **33 backend tests passed, 3 component tests passed, typecheck and production build passed, 4 Playwright tests passed (1.0 minute)**. Initial collection failed because an injected PostgreSQL URL was read by the module-level ASGI app; the test harness now sets SQLite before import. Bundled Chromium then failed to load libglib; the explicit installed-browser override resolved it. No application assertions were relaxed. GitHub CI has still not run.
+Python 3.12.12 / Node 24.22.1 / Chromium 152.0.7977.64: **33 backend tests passed, 3 component tests passed, typecheck and production build passed, 4 Playwright tests passed (1.0 minute)**. Initial collection failed because an injected PostgreSQL URL was read by the module-level ASGI app; the test harness now sets SQLite before import. Bundled Chromium then failed to load libglib; the explicit installed-browser override resolved it. No application assertions were relaxed. GitHub CI subsequently passed on 24 October 2026.
 
 A further local backend run with an intentionally invalid PostgreSQL environment URL also passed all 33 tests, confirming the isolation fix. Native Replit approval/reload evidence and exact reproduction command are in [REPLIT.md](REPLIT.md).

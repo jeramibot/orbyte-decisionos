@@ -1,6 +1,6 @@
 # Judge-access handoff
 
-As of 24 October 2026, unauthenticated requests to the Replit workspace URL and the previously recorded `sisko.replit.dev` development-preview URL return HTTP 404. Screenshots prove the team used Replit, but neither URL is presently a verified judge-accessible prototype. The empty private GitHub repository is also not judge-accessible.
+As of 24 October 2026, unauthenticated requests to the Replit workspace URL and the previously recorded `sisko.replit.dev` development-preview URL return HTTP 404. Screenshots prove the team used Replit, but neither URL is presently a verified judge-accessible prototype. The code is now in a private GitHub repository, which is not accessible to unauthenticated judges.
 
 Replit's public pricing page currently advertises one live published project on the Starter plan: https://replit.com/pricing . This is a plan description, not a verified entitlement or successful publication for this account. The organiser flyer provided by the user separately says Replit **Core redemption** is required for judging and deposit refund; the user reports the voucher expired. Ask the organisers for reactivation or written clarification. A free-plan deployment alone does not establish eligibility under that flyer.
 

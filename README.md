@@ -114,7 +114,7 @@ pnpm exec playwright install chromium
 pnpm test:e2e
 ```
 
-Actual local results: **33 backend tests, 3 component tests and 4 Playwright tests passed in Replit; typecheck and production build passed**. Playwright used Replit Chromium 152; the original macOS runner remains restricted. The core workflow was separately exercised in the Codex in-app browser, including approval, reload persistence, unavailable simulation handling and mobile layout. See [testing evidence and its limits](docs/TESTING.md). A Linux CI workflow is included but has not run on GitHub.
+Actual local results: **33 backend tests, 3 component tests and 4 Playwright tests passed in Replit; typecheck and production build passed**. Playwright used Replit Chromium 152; the original macOS runner remains restricted. The core workflow was separately exercised in the Codex in-app browser, including approval, reload persistence, unavailable simulation handling and mobile layout. [GitHub CI passed](https://github.com/jeramibot/orbyte-decisionos/actions/runs/40096713320) on the first private push, including backend, frontend and browser suites. See [testing evidence and its limits](docs/TESTING.md).
 
 ## Project documentation
 
