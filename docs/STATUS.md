@@ -23,11 +23,11 @@ See [detailed test results](TESTING.md) for commands and boundaries. No remote r
 
 1. Push to the authorised GitHub destination and verify the separate CI run; Replit browser tests already pass.
 2. Complete registered-team review, then finalise the prepared PDFs and deck. The user is handling the 5–7 minute video.
-3. After approved provider setup/budget, validate the pinned MiroFish integration with one real small run and actual runtime/usage evidence.
+3. Optional after the required preliminary submission is ready: replace the masked Zep dashboard value with a valid full key, then validate one small synthetic MiroFish run within the chosen provider limits. No live result is currently claimed.
 4. Authorise remote repository/public submission separately and verify organiser handles, links and deadline freeze.
 
 ## Submission preparation — 23 October
 
 Both official template PDFs have technical answers and appendices, with draft stamps and unconfirmed team fields/signatures. All 34 pages were rendered and visually reviewed; narrative word limits and overlay bounds passed. The nine-slide PowerPoint passed package/layout/font/native-table checks and artifact-runtime re-import; each slide was visually checked. This does not establish native PowerPoint rendering.
 
-Replit import, setup, production build and all 40 tests (33 backend, 3 component, 4 browser) are verified. A synthetic approval and reload check passed in the hosted development preview. The setup/test harness now handles Replit pip and injected-database defaults. Provider configuration remains unexecuted without credentials. No remote Git push, production publication or final submission occurred.
+Replit import, setup, production build and all 40 tests (33 backend, 3 component, 4 browser) are verified. A synthetic approval and reload check passed in the hosted development preview. The setup/test harness now handles Replit pip and injected-database defaults. Small Gemini API verification calls succeeded, but the saved Zep value is masked and invalid; no live MiroFish simulation occurred. No remote Git push, production publication or final submission occurred.

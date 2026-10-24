@@ -2,7 +2,7 @@
 
 **Automate operations. Simulate possibilities. Make informed decisions.**
 
-A working synthetic café procurement prototype for **SDC 2026, Domain 2 — Orbyte Smart SME Challenge**. It connects inventory and quotations, explains the trade-offs, requires owner approval, and saves a purchase-order draft with an audit trail. SDG focus: **8.2 and 8.3**.
+A working synthetic café procurement prototype by registered team **Us!** for **SDC 2026, Domain 2 — Orbyte Smart SME Challenge**. It connects inventory and quotations, explains the trade-offs, requires owner approval, and saves a purchase-order draft with an audit trail. SDG focus: **8.2 and 8.3**.
 
 **Status:** operational workflow implemented and checked locally. MiroFish adapter and scenario screens implemented; no genuine MiroFish run yet. This is a development repository, **not a completed hackathon submission**. Replit development use and proof are verified; team details and final submission links are still pending. See [status](docs/STATUS.md), [test results](docs/TESTING.md) and [submission checklist](submission/README.md).
 

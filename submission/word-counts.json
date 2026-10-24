@@ -4,15 +4,15 @@
     "limit": 250
   },
   "solution": {
-    "words": 186,
+    "words": 197,
     "limit": 300
   },
   "design": {
-    "words": 174,
+    "words": 181,
     "limit": 200
   },
   "architecture": {
-    "words": 153,
+    "words": 164,
     "limit": 200
   },
   "review": {
@@ -24,11 +24,11 @@
     "limit": 100
   },
   "privacy": {
-    "words": 126,
+    "words": 135,
     "limit": 150
   },
   "risks": {
-    "words": 112,
+    "words": 120,
     "limit": 150
   }
 }

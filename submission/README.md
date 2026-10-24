@@ -4,7 +4,7 @@ This folder contains two **draft** official-template PDFs, a draft Replit proof-
 
 ## Outstanding inputs and deliverables
 
-- Registered team name, leader and member details (maximum five members; combine the six engineering workstreams).
+- Registered team name confirmed as **Us!**. Leader and member details remain pending (maximum five members; combine the six engineering workstreams).
 - New authorised GitHub repository, genuine incremental history, required committee collaborator handles and public access before submission. No remote has been created or pushed from this build. Development should remain private until the authorised publication step.
 - Replit development use is now verified; draft proof is in `drafts/DecisionOS_Replit_POU_DRAFT.pdf`. Final team filename and organiser review remain pending. The reviewed handbook makes RunPod conditional on a GPU workload; this local deterministic demo has none. Declare actual use truthfully.
 - Finalise prepared `drafts/DecisionOS_Preliminary_DRAFT.pdf` as: `SDC2026_<TeamName>_Preliminary.pdf`.
