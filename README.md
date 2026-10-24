@@ -4,7 +4,21 @@
 
 A working synthetic café procurement prototype by registered team **Us!** for **SDC 2026, Domain 2 — Orbyte Smart SME Challenge**. It connects inventory and quotations, explains the trade-offs, requires owner approval, and saves a purchase-order draft with an audit trail. SDG focus: **8.2 and 8.3**.
 
-**Status:** the [public Replit synthetic demo](https://orbyte-decisionos--jeremyjunxuanta.replit.app/) is live and its approval-to-draft journey was verified after reload on 24 October 2026. MiroFish adapter and scenario screens are implemented, but no genuine MiroFish run has occurred. This is **not a completed hackathon submission**: leader-signed forms, the video, organiser GitHub access and portal submission remain pending. See [status](docs/STATUS.md), [test results](docs/TESTING.md) and [submission checklist](submission/README.md).
+**Status:** the [public Replit synthetic demo](https://orbyte-decisionos--jeremyjunxuanta.replit.app/) is live and its approval-to-draft journey was verified after reload on 24 October 2026. This [GitHub repository](https://github.com/jeramibot/orbyte-decisionos) is public and was checked without signing in. MiroFish adapter and scenario screens are implemented, but no genuine MiroFish run has occurred. This is **not a completed hackathon submission**: leader-signed forms, the video, designated committee GitHub collaborator access and portal submission remain pending. See [status](docs/STATUS.md), [test results](docs/TESTING.md) and [submission checklist](submission/README.md).
+
+## Reviewer links
+
+| Item | Link / status |
+|---|---|
+| Registered team | **Us!** — Pau Kwee li (leader), Jeremy Tan Jun Xuan |
+| Public working prototype | [Open DecisionOS on Replit](https://orbyte-decisionos--jeremyjunxuanta.replit.app/) |
+| Replit development project | [Team Replit workspace](https://replit.com/@jeremyjunxuanta/orbyte-decisionos) |
+| Pitch slides | [Editable nine-slide deck](submission/DecisionOS_Pitch_Us_v2.pptx) |
+| Replit proof of use | [Team-named evidence PDF](submission/SDC2026_Us!_Replit_POU.pdf) |
+| 5–7-minute public video | **Pending user recording and upload**; add the verified YouTube link before submission. |
+| Official preliminary and technical declarations | **Pending leader review and signatures**; public [drafts](submission/drafts/) are not final forms. |
+
+The live demo uses invented data and simulated roles. The repository includes neither private leader contact details nor API keys. Obtain the organiser-designated GitHub collaborator handles and invite them before final submission.
 
 ## Try the working journey
 
@@ -114,7 +128,7 @@ pnpm exec playwright install chromium
 pnpm test:e2e
 ```
 
-Actual local results: **33 backend tests, 3 component tests and 4 Playwright tests passed in Replit; typecheck and production build passed**. Playwright used Replit Chromium 152; the original macOS runner remains restricted. The core workflow was separately exercised in the Codex in-app browser, including approval, reload persistence, unavailable simulation handling and mobile layout. [GitHub CI passed](https://github.com/jeramibot/orbyte-decisionos/actions/runs/40103029122) on a private commit, including backend, frontend and browser suites. See [testing evidence and its limits](docs/TESTING.md).
+Actual local results: **33 backend tests, 3 component tests and 4 Playwright tests passed in Replit; typecheck and production build passed**. Playwright used Replit Chromium 152; the original macOS runner remains restricted. The core workflow was separately exercised in the Codex in-app browser, including approval, reload persistence, unavailable simulation handling and mobile layout. [GitHub CI passed](https://github.com/jeramibot/orbyte-decisionos/actions/runs/40105180876) on the latest tested commit, including backend, frontend and browser suites. See [testing evidence and its limits](docs/TESTING.md).
 
 ## Project documentation
 

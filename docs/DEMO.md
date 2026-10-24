@@ -2,7 +2,7 @@
 
 Target: approximately **5:15**, within the reviewed preliminary **5–7 minute** video requirement. Rehearse with the actual running build. Do not use mocked simulation results.
 
-Before recording, install/build via README, start both servers and confirm the local URL. For a clean initial state, deliberately reset the default synthetic database only after stopping servers. Start again and choose Purchasing manager. Close any private tabs/notifications. Prepare slides and genuine submission links separately.
+Before recording, open the [public Replit demo](https://orbyte-decisionos--jeremyjunxuanta.replit.app/) and rehearse the journey. Its synthetic state is shared and may already contain decisions; create a fresh inventory check rather than expecting an empty list. Do not reset a shared deployment during judging. For a local recording, install/build via the README and start both servers; reset only the local default synthetic database if needed. Close private tabs and notifications. Keep the final public YouTube video between 5 and 7 minutes and verify it opens while signed out.
 
 | Time | Show | Narration / evidence |
 |---|---|---|

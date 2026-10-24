@@ -1,6 +1,6 @@
 # Team workstreams and task specifications
 
-The supplied prompt names six workstreams; the reviewed competition rules allow **at most five registered team members**. Combine workstreams 1 and 6 if needed; do not add an unregistered contributor. No GitHub issues have been posted. The reviewed `main` history is pushed to the private competition repository.
+The supplied prompt names six workstreams; the reviewed competition rules allow **at most five registered team members**. Combine workstreams 1 and 6 if needed; do not add an unregistered contributor. No GitHub issues have been posted. The reviewed `main` history is pushed to the public competition repository.
 
 | Workstream / proposed branch | Owned files | Acceptance criteria |
 |---|---|---|
