@@ -1,4 +1,4 @@
-# Implementation status — 23 October 2026 MYT
+# Implementation status — 24 October 2026 MYT
 
 | Milestone | Actual state |
 |---|---|
@@ -24,7 +24,7 @@ See [detailed test results](TESTING.md) for commands and boundaries. An empty pr
 1. Push to the authorised GitHub destination and verify the separate CI run; Replit browser tests already pass.
 2. Complete registered-team review, then finalise the prepared PDFs and deck. The user is handling the 5–7 minute video.
 3. Optional after the required preliminary submission is ready: replace the masked Zep dashboard value with a valid full key, then validate one small synthetic MiroFish run within the chosen provider limits. No live result is currently claimed.
-4. Authorise remote repository/public submission separately and verify organiser handles, links and deadline freeze.
+4. Finalise the official forms with the registered team, then push to the user-confirmed private GitHub repository. The user asked to wait until the forms are final before pushing. Verify organiser handles, links and deadline freeze before publication.
 
 ## Submission preparation — 23 October
 
