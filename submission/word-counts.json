@@ -4,7 +4,7 @@
     "limit": 250
   },
   "solution": {
-    "words": 197,
+    "words": 198,
     "limit": 300
   },
   "design": {
@@ -20,7 +20,7 @@
     "limit": 100
   },
   "replaceability": {
-    "words": 61,
+    "words": 72,
     "limit": 100
   },
   "privacy": {

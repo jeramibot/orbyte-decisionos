@@ -12,7 +12,7 @@ This folder contains two **draft** official-template PDFs, a team-named genuine 
 - Finalise prepared `drafts/DecisionOS_TechDeclaration_DRAFT.pdf` as: `SDC2026_<TeamName>_TechDeclaration.pdf`, including extensive Codex assistance, libraries, simulated connector, optional unverified MiroFish and all actual provider/cloud use.
 - Verify the genuine `SDC2026_Us!_Replit_POU.pdf` proof in the final public repository; include RunPod evidence only if actually applicable. Do not reuse sample proof files as team evidence.
 - Prepared [pitch deck](DecisionOS_Pitch_Us.pptx): nine editable slides with speaker notes and the confirmed team name. Leader/member details and a live MiroFish run remain unconfirmed. The user will create the public 5–7 minute YouTube pitch/demo.
-- Accessible prototype/build instructions and tested links. Public deployment needs approval and an appropriate access-control plan for simulated roles.
+- Accessible prototype/build instructions and tested links. Anonymous checks on 24 October returned 404 for the current Replit workspace link and old development-preview URL, so neither is a verified judge-accessible build. Public deployment needs approval and an appropriate access-control plan for simulated roles; see [judge-access handoff](../docs/JUDGE-ACCESS.md).
 - Complete README team, repository, Replit, prototype, deck, video and completed-PDF links with real values.
 - All mandatory GenAI, Database and Cloud Deployment workshops were confirmed complete by the user. Verify organiser sponsor-checkbox interpretation and designated committee GitHub accounts. Do not invent them.
 - Verify all links/files while logged out, submit through the current official portal process and retain genuine confirmation.

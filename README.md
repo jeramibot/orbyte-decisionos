@@ -4,7 +4,7 @@
 
 A working synthetic café procurement prototype by registered team **Us!** for **SDC 2026, Domain 2 — Orbyte Smart SME Challenge**. It connects inventory and quotations, explains the trade-offs, requires owner approval, and saves a purchase-order draft with an audit trail. SDG focus: **8.2 and 8.3**.
 
-**Status:** operational workflow implemented and checked locally. MiroFish adapter and scenario screens implemented; no genuine MiroFish run yet. This is a development repository, **not a completed hackathon submission**. Replit development use and proof are verified; the two-person registered roster is confirmed, while leader-signed forms and final submission links are still pending. See [status](docs/STATUS.md), [test results](docs/TESTING.md) and [submission checklist](submission/README.md).
+**Status:** operational workflow implemented and checked locally. MiroFish adapter and scenario screens implemented; no genuine MiroFish run yet. This is a development repository, **not a completed hackathon submission**. Replit development use and proof are verified, but the current Replit links return 404 to logged-out visitors. The two-person registered roster is confirmed; judge access, leader-signed forms and final submission links remain pending. See [status](docs/STATUS.md), [test results](docs/TESTING.md) and [submission checklist](submission/README.md).
 
 ## Try the working journey
 
@@ -127,6 +127,7 @@ Actual local results: **33 backend tests, 3 component tests and 4 Playwright tes
 - [Genuine Replit proof of use](submission/SDC2026_Us!_Replit_POU.pdf) for team review and the eventual public submission
 - [Team-named pitch deck](submission/DecisionOS_Pitch_Us.pptx) for the 5–7 minute recorded pitch
 - [Replit import](docs/REPLIT.md), [MiroFish setup record](docs/MIROFISH-SETUP-RECORD.md) and [team validation protocol](docs/TEAM-VALIDATION.md)
+- [Judge-access handoff](docs/JUDGE-ACCESS.md) for the current anonymous-link failure and deployment checks
 
 Original application code is under [Apache License 2.0](LICENSE). The separate MiroFish project is AGPL-3.0; its source is not bundled. See [licensing boundaries and notices](LICENSES.md).
 

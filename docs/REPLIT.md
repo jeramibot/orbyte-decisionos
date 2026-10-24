@@ -8,7 +8,7 @@ Workspace: [https://replit.com/@jeremyjunxuanta/orbyte-decisionos](https://repli
 - Production build passed; 33 backend tests, three component tests and TypeScript checks passed.
 - Four Playwright tests passed in 1.0 minute: approval/persistence, rejection, unavailable simulation and mobile navigation.
 - Native browser created decision `e4dc959a-2ce6-4ea4-adcc-e6307028f737`, approved Supplier B for RM660, and retained PO `B65F9B8C` and audit events after reload.
-- Screenshots: `docs/screenshots/replit-workspace.jpg`, `replit-approved-workflow.jpg`, `replit-test-results.jpg`. Proof PDF: `submission/drafts/DecisionOS_Replit_POU_DRAFT.pdf`. Team name and final submission filename remain pending.
+- Screenshots: `docs/screenshots/replit-workspace.jpg`, `replit-approved-workflow.jpg`, `replit-test-results.jpg`. Team-named proof PDF: `submission/SDC2026_Us!_Replit_POU.pdf`.
 
 ## Reproduce
 
@@ -26,4 +26,4 @@ The test harness forces an isolated SQLite configuration before ASGI imports, av
 
 Logs were retained in the Replit workspace as `docs/replit-unit-results.txt` and `docs/replit-e2e-results.txt`. Replit Agent automatically began inspecting the import; it was stopped after 16 seconds / five actions. Setup and verification were then performed manually through the shell and UI with Codex.
 
-The development preview may sleep and is not a durable production link. Selectable roles are simulated, so only invented data belongs here. Public production publishing and GitHub access changes have not been performed. Sponsor-credit use is unconfirmed.
+The development preview may sleep and is not a durable production link. On 24 October 2026, unauthenticated HTTP checks returned 404 for both the Replit workspace URL and the prior `sisko.replit.dev` preview URL. The signed-in screenshots remain genuine proof of use, but these URLs cannot currently serve as judge-accessible prototype links. Selectable roles are simulated, so only invented data belongs here. Public production publishing and GitHub access changes have not been performed. The user reports the organiser Core voucher expired and elects to continue on the free plan; Core redemption remains unresolved with organisers.

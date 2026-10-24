@@ -17,7 +17,7 @@
 - **M4/M5:** `backend/adapters/mirofish.py`, `services/worker.py`, 17 additional adapter/worker tests, pinned-source record and scenario templates. Combined backend suite: **33 passed**, one dependency deprecation warning. Unavailable requests persist without invented insights. No genuine simulation report exists.
 - **M6:** `README.md`, `docs/`, `scripts/`, `.github/workflows/ci.yml`, `submission/README.md`. Playwright: four tests passed in Replit; the earlier macOS launch attempt was blocked. CI is authored but unrun; this is not a passing CI claim.
 
-See [detailed test results](TESTING.md) for commands and boundaries. An empty private GitHub repository exists, but no code was pushed; no production service was published, no live MiroFish simulation occurred and no real procurement was performed.
+See [detailed test results](TESTING.md) for commands and boundaries. An empty private GitHub repository exists, but no code was pushed. Anonymous requests to the Replit workspace and old development-preview URL returned 404 on 24 October, so judge access is not verified. No production service was published, no live MiroFish simulation occurred and no real procurement was performed.
 
 ## Next work
 
