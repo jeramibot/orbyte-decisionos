@@ -86,7 +86,7 @@ The connector is our own interface assumption, **not an official Orbyte integrat
 |---|---|
 | UI | Next.js 16.4.2, React 19.3.1, TypeScript 5.9.3, Tailwind CSS 4.3.3 |
 | API / storage | FastAPI 0.135.1, Pydantic 2.12.5, SQLAlchemy 2.0.48, SQLite |
-| Verification | Pytest 9.0.2, Vitest 5.0.5, Playwright 1.64.1 |
+| Verification | Pytest 9.1.1, Vitest 5.0.5, Playwright 1.64.1 |
 | Optional simulation | MiroFish commit `7657031ac01184afe2cb220f5ee3545573b5e843`; source and mocked contracts checked, live run unverified |
 
 Exact transitive versions are in `backend/requirements.lock` and `frontend/pnpm-lock.yaml`.
