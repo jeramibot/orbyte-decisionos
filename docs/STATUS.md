@@ -21,10 +21,11 @@ See [detailed test results](TESTING.md) for commands and boundaries. An empty pr
 
 ## Next work
 
-1. Push to the authorised GitHub destination and verify the separate CI run; Replit browser tests already pass.
-2. Complete registered-team review, then finalise the prepared PDFs and deck. The user is handling the 5–7 minute video.
-3. Optional after the required preliminary submission is ready: replace the masked Zep dashboard value with a valid full key, then validate one small synthetic MiroFish run within the chosen provider limits. No live result is currently claimed.
-4. Finalise the official forms with the registered team, then push to the user-confirmed private GitHub repository. The user asked to wait until the forms are final before pushing. Verify organiser handles, links and deadline freeze before publication.
+1. Complete GitHub sign-in, push the locally prepared history to the authorised private repository and verify the separate CI run; Replit browser tests already pass. The user approved a private push, but the CLI is not authenticated yet.
+2. Resolve judge access: check Replit Starter publishing availability and settings, then publish only with the required approval and verify the resulting URL while signed out. The current development links return 404 anonymously.
+3. Ask the organisers to reactivate the expired Replit Core voucher or clarify in writing whether verified free-plan Replit use is eligible. Obtain the designated committee GitHub usernames.
+4. Have the registered team review the private PDFs and deck, add verified links, and have Pau personally sign and date the declarations. The user is handling the 5–7 minute video. Submit the final materials through the official portal and retain confirmation.
+5. Optional after the required preliminary submission is ready: replace the masked Zep dashboard value with a valid full key, then validate one small synthetic MiroFish run within the chosen provider limits. No live result is currently claimed.
 
 ## Submission preparation — 23 October
 
